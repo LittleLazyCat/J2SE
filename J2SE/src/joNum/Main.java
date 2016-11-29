@@ -16,6 +16,7 @@ public class Main {
 			list.add(i);
 			i=in.nextInt();
 		}
+		in.close();
 		Main n =new Main();
 		System.out.println(n.oddNum(list)+" "+n.evenNum(list));
 	}

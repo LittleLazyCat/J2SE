@@ -37,6 +37,7 @@ public class Main {
 		
 		Scanner in =new Scanner(System.in);
 		System.out.println(new Main().getReadNum(in.nextInt()));
+		in.close();
 	}
 
 }

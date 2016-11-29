@@ -16,7 +16,7 @@ public class Main {
 		{
 			e.printStackTrace();
 		}
-		
+		in.close();
 	}
 	
 	public int b2u(int t,int l)

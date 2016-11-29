@@ -15,6 +15,7 @@ public class Main {
 			
 			e.printStackTrace();
 		}
+		in.close();
 	}
 	public String rs(int i)
 	{

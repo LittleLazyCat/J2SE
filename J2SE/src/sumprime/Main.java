@@ -39,6 +39,7 @@ public class Main {
 		Scanner in =new Scanner(System.in);
 		int first = in.nextInt();//开始的位置
 		int second = in.nextInt();//结束的位置
+		in.close();
 		System.out.println(new Main().sumPrime(first, second));
 		
 	}

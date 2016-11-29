@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		String s=new Scanner(System.in).nextLine();
+		Scanner in = new Scanner(System.in);
+		String s=in.nextLine();
+		in.close();
 		String[] array=s.split(" ");
 		for(int i=0;i<array.length-1;i++)
 		{
