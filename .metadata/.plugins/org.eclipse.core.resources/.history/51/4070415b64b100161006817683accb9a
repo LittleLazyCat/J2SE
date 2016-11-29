@@ -1,0 +1,39 @@
+package sumprime;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Main {
+
+	public int sumPrime(int n,int m)
+	{
+//		Map<Integer,Integer> sp = new HashMap<Integer,Integer>();
+		boolean flag;
+		int sum = 0;
+		for(;n<=m;n++)
+		{
+			flag = true;
+			for(int i=1;i<(n/2);i++)
+			{
+				if(n%i==0)
+				{
+					flag = false;
+				}
+			}
+			if(flag)
+			{
+				sum+=n;
+			}
+		}
+		return sum;
+	}
+	public static void main(String[] args) {
+		Scanner in =new Scanner(System.in);
+		int first = in.nextInt();
+		int second = in.nextInt();
+		System.out.println(new Main().sumPrime(first, second));
+		
+	}
+
+}

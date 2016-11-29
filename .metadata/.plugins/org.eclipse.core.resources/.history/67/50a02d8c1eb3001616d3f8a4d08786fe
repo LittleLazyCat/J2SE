@@ -1,0 +1,36 @@
+package clock;
+
+public class Clock {
+
+	private Display Hour ;
+	private Display Minute ;
+	private Display Second ;
+	
+	public Clock(int hour,int minute,int second)
+	{
+		this.Hour=new Display(hour, 24);
+		this.Minute = new Display(minute, 60);
+		this.Second =new Display(second, 60);
+	}
+	public void tick()
+	{
+		Second.increase();
+		if(Second.getValue() ==0)
+		{
+			Minute.increase();
+			if(Minute.getValue() == 0)
+			{
+				Hour.increase();
+			}
+		}
+	}
+	@Override
+	public String toString()
+	{
+		return "";
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

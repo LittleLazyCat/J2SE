@@ -18,16 +18,17 @@ public class Field {
 	public int getWidth() { return width; }
 	public int getHeight() { return height; }
 	
+	//放置细胞
 	public Cell place(int row, int col, Cell o) {
 		Cell ret = field[row][col];
 		field[row][col] = o;
 		return ret;
 	}
-	
+	//获得细胞
 	public Cell get(int row, int col) {
 		return field[row][col];
 	}
-	
+	//获得某一细胞周围的细胞
 	public Cell[] getNeighbour(int row, int col) {
 		ArrayList<Cell> list = new ArrayList<Cell>();
 		for ( int i=-1; i<2; i++ ) {
@@ -41,7 +42,7 @@ public class Field {
 		}
 		return list.toArray(new Cell[list.size()]);
 	}
-	
+	//清除所有细胞
 	public void clear() {
 		for ( int i=0; i<height; i++ ) {
 			for ( int j=0; j<width; j++ ) {

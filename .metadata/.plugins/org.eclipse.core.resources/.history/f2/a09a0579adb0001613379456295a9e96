@@ -1,0 +1,22 @@
+package fahrenheit2centigrade;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in =new Scanner(System.in);
+		try
+		{
+			float F = in.nextFloat();
+			int C =(int)((F-32)/(9/5.0f));
+			System.out.println(C);
+			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}

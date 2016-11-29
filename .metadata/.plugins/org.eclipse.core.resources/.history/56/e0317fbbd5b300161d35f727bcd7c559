@@ -1,0 +1,20 @@
+package mileage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CityHelper {
+
+	private List<City> list = new ArrayList<City>();
+//	得到城市数目
+	public int getCityNum(String s)
+	{
+		return 0;
+	}
+//	增加城市
+	public void addCity(City c)
+	{
+		list.add(c);
+	}
+	
+}

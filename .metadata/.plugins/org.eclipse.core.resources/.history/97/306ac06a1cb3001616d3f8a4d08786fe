@@ -1,0 +1,12 @@
+package clock;
+
+public class Display {
+	
+	private int value;
+	private int limit;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
