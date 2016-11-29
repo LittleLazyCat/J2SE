@@ -1,32 +1,38 @@
 package castle;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Room {
-    public String description;
-    public Room northExit;
-    public Room southExit;
-    public Room eastExit;
-    public Room westExit;
+	private String description;
 
-    public Room(String description) 
-    {
-        this.description = description;
-    }
+	private Map<String, Room> roomMap = new HashMap<String, Room>();
 
-    public void setExits(Room north, Room east, Room south, Room west) 
-    {
-        if(north != null)
-            northExit = north;
-        if(east != null)
-            eastExit = east;
-        if(south != null)
-            southExit = south;
-        if(west != null)
-            westExit = west;
-    }
+	public Room(String description) {
+		this.description = description;
+	}
 
-    @Override
-    public String toString()
-    {
-        return description;
-    }
+	public void setExit(String desc, Room r) {
+		roomMap.put(desc, r);
+	}
+
+	public void getExit() {
+		StringBuffer sb = new StringBuffer();
+		for (String desc : roomMap.keySet()) {
+			sb.append(desc);
+			sb.append(' ');
+		}
+		
+		System.out.print(sb.toString());
+	}
+
+	public Room getNextRoom(String direction) {
+		
+		return roomMap.get(direction);
+	}
+
+	@Override
+	public String toString() {
+		return description;
+	}
 }
