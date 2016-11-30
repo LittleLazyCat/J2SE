@@ -1,8 +1,13 @@
 package foxnrabbit.foxnrabbit;
 
+import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
+
 
 import foxnrabbit.animal.Animal;
 import foxnrabbit.animal.Fox;
@@ -18,6 +23,7 @@ public class FoxAndRabbit {
 	
 	public FoxAndRabbit(int size) {
 		theField = new Field(size, size);
+//		放置兔子和狐狸
 		for ( int row = 0; row<theField.getHeight(); row++ ) {
 			for ( int col = 0; col<theField.getWidth(); col++ ) {
 				double probability = Math.random();
@@ -34,10 +40,21 @@ public class FoxAndRabbit {
 		frame.setResizable(false);
 		frame.setTitle("Cells");
 		frame.add(theView);
+		JButton btn = new JButton("单击");
+		frame.add(btn,BorderLayout.NORTH);
+		//匿名内部类
+		btn.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				step();
+				theView.repaint();
+			}
+		});
 		frame.pack();
 		frame.setVisible(true);
 	}
-	
+//	开始方法，方法参数用于设置游戏一共走几步
 	public void start(int steps) {
 		for ( int i=0; i<steps; i++ ) {
 			step();
@@ -92,8 +109,9 @@ public class FoxAndRabbit {
 	}
 	
 	public static void main(String[] args) {
-		FoxAndRabbit fnr = new FoxAndRabbit(50);
-		fnr.start(1000);
+		//FoxAndRabbit fnr = 
+		new FoxAndRabbit(50);
+		//fnr.start(1000);
 	}
 
 }

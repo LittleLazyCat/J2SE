@@ -1,5 +1,5 @@
 package foxnrabbit.field;
-
+//Œª÷√¿‡
 public class Location {
 	private int row;
 	private int col;
