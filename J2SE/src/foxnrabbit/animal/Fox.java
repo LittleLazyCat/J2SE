@@ -10,14 +10,14 @@ public class Fox extends Animal implements Cell {
 	public Fox() {
 		super(20,4);
 	}
-	
+//	画狐狸，年龄越小，黑色越深
 	@Override
 	public void draw(Graphics g, int x, int y, int size) {
 		int alpha = (int)((1-getAgePercent())*255);
 		g.setColor(new Color(0, 0, 0, alpha));//(int)((20-getAge())/20.0*255)));
 		g.fillRect(x, y, size, size);
 	}
-
+//	生小狐狸
 	@Override
 	public Animal breed() {
 		Animal ret = null;
@@ -31,7 +31,7 @@ public class Fox extends Animal implements Cell {
 	public String toString() {
 		return "Fox:"+super.toString();
 	}
-
+//	吃，返回被吃掉的动物
 	@Override
 	public Animal feed(ArrayList<Animal> neighbour) {
 		Animal ret = null;

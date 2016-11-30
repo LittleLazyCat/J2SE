@@ -22,17 +22,17 @@ public class Field {
 	
 	public int getWidth() { return width; }
 	public int getHeight() { return height; }
-	
+//	在[row,col]处放置格子（动物）
 	public Cell place(int row, int col, Cell o) {
 		Cell ret = field[row][col];
 		field[row][col] = o;
 		return ret;
 	}
-	
+//	得到[row,col]处的格子
 	public Cell get(int row, int col) {
 		return field[row][col];
 	}
-	
+//	得到[row,col]格子周围的格子
 	public Cell[] getNeighbour(int row, int col) {
 		ArrayList<Cell> list = new ArrayList<Cell>();
 		for ( int i=-1; i<2; i++ ) {
@@ -46,7 +46,7 @@ public class Field {
 		}
 		return list.toArray(new Cell[list.size()]);
 	}
-	
+//	以[row，col]格子为中心，获取这九格中空的格子
 	public Location[] getFreeNeighbour(int row, int col) {
 		ArrayList<Location> list = new ArrayList<Location>();
 		for ( Location loc : adjacent ) {
@@ -58,7 +58,7 @@ public class Field {
 		}
 		return list.toArray(new Location[list.size()]);
 	}
-	
+//	用于随机放置baby
 	public boolean placeRandomAdj(int row, int col, Cell cell) {
 		boolean ret = false;
 		Location[] freeAdj = getFreeNeighbour(row, col);
@@ -69,13 +69,13 @@ public class Field {
 		}
 		return ret;
 	}
-	
+//	移除[row,col]处的格子
 	public Cell remove(int row, int col) {
 		Cell ret = field[row][col];
 		field[row][col] = null;
 		return ret;
 	}
-	
+//	移除格子
 	public void remove(Cell cell) {
 		for ( int row = 0; row < height; row++ ) {
 			for ( int col = 0; col < width; col++ ) {
@@ -94,7 +94,7 @@ public class Field {
 			}
 		}
 	}
-
+//	动物移动
 	public void move(int row, int col, Location loc) {
 		field[loc.getRow()][loc.getCol()] = field[row][col];
 		remove(row, col);
