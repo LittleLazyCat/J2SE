@@ -53,6 +53,7 @@ public class VerySimpleChatServer {
 				Thread t = new Thread(new ClientHandler(clientSocket));
 				t.start();
 				System.out.println("got a connection");
+				 
 			}
 
 		} catch (Exception e) {
