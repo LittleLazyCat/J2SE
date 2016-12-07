@@ -1,0 +1,23 @@
+package weatherstation;
+
+public class WeatherData implements Subject {
+
+	@Override
+	public void resisterObserver(Observer o) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removeObserver(Observer o) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

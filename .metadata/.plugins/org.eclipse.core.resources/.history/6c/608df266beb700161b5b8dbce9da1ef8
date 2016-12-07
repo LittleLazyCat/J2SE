@@ -1,0 +1,11 @@
+package Duck;
+
+public class FlyWithWIngs implements FlyBehavior {
+
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

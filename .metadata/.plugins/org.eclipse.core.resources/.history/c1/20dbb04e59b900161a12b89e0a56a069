@@ -1,0 +1,28 @@
+package weatherstation;
+
+import java.util.ArrayList;
+
+public class WeatherData implements Subject {
+	private ArrayList<Observer> observers;
+	
+	@Override
+	public void resisterObserver(Observer o) {
+		observers.add(o);
+	}
+
+	@Override
+	public void removeObserver(Observer o) {
+		int i = observers.indexOf(o);
+		observers.remove(i);
+	}
+
+	@Override
+	public void notifyObservers() {
+		for(int i=1;i<observers.size();i++)
+		{
+			Observer obsever = observers.get(i);
+			
+		}
+	}
+
+}

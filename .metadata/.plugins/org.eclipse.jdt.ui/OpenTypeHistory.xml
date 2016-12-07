@@ -2,5 +2,19 @@
 <typeInfoHistroy>
 <typeInfo handle="=beerV1/D:\/tomcat7.0.73\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1478532594000"/>
 <typeInfo handle="=J2SE/C:\/Program Files\/Java\/jdk1.8.0_92\/jre\/lib\/rt.jar&lt;jdk.internal.org.objectweb.asm(Handle.class[Handle" modifiers="49" timestamp="1479209942976"/>
-<typeInfo handle="=J2SE/src&lt;castle{Handler.java[Handler" modifiers="1" timestamp="1480393167141"/>
+<typeInfo handle="=J2SE/src&lt;castle{Handler.java[Handler" modifiers="1" timestamp="1480417764050"/>
+<typeInfo handle="=Duck/src&lt;Duck{FlyBehavior.java[FlyBehavior" modifiers="513" timestamp="1480593908051"/>
+<typeInfo handle="=Duck/src&lt;Duck{Duck.java[Duck" modifiers="1025" timestamp="1480594294786"/>
+<typeInfo handle="=Duck/src&lt;Duck{QuackBehavior.java[QuackBehavior" modifiers="513" timestamp="1480593908083"/>
+<typeInfo handle="=J2SE/src&lt;weatherstation{Observer.java[Observer" modifiers="513" timestamp="1480769128192"/>
+<typeInfo handle="=J2SE/src&lt;weatherstation{Subject.java[Subject" modifiers="513" timestamp="1480769326208"/>
+<typeInfo handle="=J2SE/C:\/Program Files\/Java\/jdk1.8.0_92\/jre\/lib\/rt.jar&lt;java.util(Observable.class[Observable" modifiers="33" timestamp="1479209942976"/>
+<typeInfo handle="=J2SE/src&lt;weatherstation{DisplayElement.java[DisplayElement" modifiers="513" timestamp="1480769177832"/>
+<typeInfo handle="=J2SE/C:\/Program Files\/Java\/jdk1.8.0_92\/jre\/lib\/rt.jar&lt;java.util(Observer.class[Observer" modifiers="1537" timestamp="1479209942976"/>
+<typeInfo handle="=J2SE/src&lt;weatherstation2{DisplayElement.java[DisplayElement" modifiers="513" timestamp="1480776359672"/>
+<typeInfo handle="=J2SE/C:\/Program Files\/Java\/jdk1.8.0_92\/jre\/lib\/rt.jar&lt;sun.awt(DisplayChangedListener.class[DisplayChangedListener" modifiers="1537" timestamp="1479209942976"/>
+<typeInfo handle="=StarBuzz/src&lt;starbuzz{Beverage.java[Beverage" modifiers="1025" timestamp="1480821400111"/>
+<typeInfo handle="=StarBuzz/src&lt;starbuzz{CondimentDecorator.java[CondimentDecorator" modifiers="1025" timestamp="1480821749210"/>
+<typeInfo handle="=Factory/src&lt;factory{Pizza.java[Pizza" modifiers="1025" timestamp="1481121761620"/>
+<typeInfo handle="=Factory/src&lt;factory{PizzaStore.java[PizzaStore" modifiers="1025" timestamp="1481122228661"/>
 </typeInfoHistroy>

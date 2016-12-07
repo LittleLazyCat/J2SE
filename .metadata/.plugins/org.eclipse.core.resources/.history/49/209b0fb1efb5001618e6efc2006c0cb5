@@ -1,6 +1,0 @@
-package castle;
-
-public class Handler {
-	public void doCMD(String cmd){}
-	public boolean isBye(){return false;};
-}

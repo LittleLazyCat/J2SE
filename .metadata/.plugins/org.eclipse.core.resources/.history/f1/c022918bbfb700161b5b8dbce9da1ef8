@@ -1,0 +1,14 @@
+package Duck;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		MallardDuck md = new MallardDuck();
+		md.performFly();
+		md.display();
+		md.setFlyBehavior(new FlyNoWay());
+		md.performFly();
+	}
+
+}

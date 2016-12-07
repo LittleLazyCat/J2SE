@@ -1,0 +1,11 @@
+package starbuzz;
+
+public class Milk extends CondimentDecorator {
+
+	@Override
+	public int cost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
