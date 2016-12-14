@@ -5,8 +5,7 @@ public class Dog {
 
 	public Dog(String bread) {
 		this.bread = bread;
-		int i,j=6;
-		j+=i;
+	
 	}
 
 	public String getBread() {

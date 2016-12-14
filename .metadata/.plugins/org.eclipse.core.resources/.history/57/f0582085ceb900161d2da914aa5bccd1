@@ -1,5 +1,0 @@
-package starbuzz;
-
-public abstract class Beverage {
-
-}

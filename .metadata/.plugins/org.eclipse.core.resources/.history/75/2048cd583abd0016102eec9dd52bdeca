@@ -1,0 +1,9 @@
+package interfacefactory;
+
+public interface PizzaIngredientFactory {
+	void createDough();
+	void createSauce();
+	void createCheese();
+	void createVeggies();
+	void createClams();
+}

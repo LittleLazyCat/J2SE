@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.TreeMap"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Character"/>
-<fullyQualifiedTypeName name="clock.Display"/>
-<fullyQualifiedTypeName name="fraction.Fraction"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="mileage.CityHelper"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="mileageV2.CityHelper"/>
@@ -40,7 +29,6 @@
 <fullyQualifiedTypeName name="netChat.SimpleChatClientA.SendButtonListener"/>
 <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
@@ -60,4 +48,16 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="factory.NYStyleCheesePizza"/>
 <fullyQualifiedTypeName name="factory.NYPizzaStore"/>
+<fullyQualifiedTypeName name="interfacefactory.ThinCrustDough"/>
+<fullyQualifiedTypeName name="interfacefactory.MarinaraSauce"/>
+<fullyQualifiedTypeName name="interfacefactory.ReggianoCheese"/>
+<fullyQualifiedTypeName name="interfacefactory.FreshVeggies"/>
+<fullyQualifiedTypeName name="interfacefactory.FreshClams"/>
+<fullyQualifiedTypeName name="interfacefactory.PizzaIngredientFactory"/>
+<fullyQualifiedTypeName name="interfacefactory.NYPizzaIngredientFactory"/>
+<fullyQualifiedTypeName name="interfacefactory.CheesePizza"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 </qualifiedTypeNameHistroy>

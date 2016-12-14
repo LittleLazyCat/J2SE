@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=beerV1/D:\/tomcat7.0.73\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1478532594000"/>
 <typeInfo handle="=J2SE/C:\/Program Files\/Java\/jdk1.8.0_92\/jre\/lib\/rt.jar&lt;jdk.internal.org.objectweb.asm(Handle.class[Handle" modifiers="49" timestamp="1479209942976"/>
 <typeInfo handle="=J2SE/src&lt;castle{Handler.java[Handler" modifiers="1" timestamp="1480417764050"/>
 <typeInfo handle="=Duck/src&lt;Duck{FlyBehavior.java[FlyBehavior" modifiers="513" timestamp="1480593908051"/>
@@ -15,6 +14,14 @@
 <typeInfo handle="=J2SE/C:\/Program Files\/Java\/jdk1.8.0_92\/jre\/lib\/rt.jar&lt;sun.awt(DisplayChangedListener.class[DisplayChangedListener" modifiers="1537" timestamp="1479209942976"/>
 <typeInfo handle="=StarBuzz/src&lt;starbuzz{Beverage.java[Beverage" modifiers="1025" timestamp="1480821400111"/>
 <typeInfo handle="=StarBuzz/src&lt;starbuzz{CondimentDecorator.java[CondimentDecorator" modifiers="1025" timestamp="1480821749210"/>
-<typeInfo handle="=Factory/src&lt;factory{Pizza.java[Pizza" modifiers="1025" timestamp="1481121761620"/>
-<typeInfo handle="=Factory/src&lt;factory{PizzaStore.java[PizzaStore" modifiers="1025" timestamp="1481122228661"/>
+<typeInfo handle="=Factory/src&lt;factory{Pizza.java[Pizza" modifiers="1025" timestamp="1481123517197"/>
+<typeInfo handle="=Factory/src&lt;factory{PizzaStore.java[PizzaStore" modifiers="1025" timestamp="1481123517173"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{Dough.java[Dough" modifiers="513" timestamp="1481196110312"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{Clams.java[Clams" modifiers="513" timestamp="1481196171391"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{Cheese.java[Cheese" modifiers="513" timestamp="1481196145171"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{Sauce.java[Sauce" modifiers="513" timestamp="1481196131280"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{PizzaIngredientFactory.java[PizzaIngredientFactory" modifiers="513" timestamp="1481203075140"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{Veggies.java[Veggies" modifiers="513" timestamp="1481196024964"/>
+<typeInfo handle="=Factory/src&lt;interfacefactory{Pizza.java[Pizza" modifiers="1025" timestamp="1481203124418"/>
+<typeInfo handle="=beerV1/D:\/tomcat7.0.73\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1478532594000"/>
 </typeInfoHistroy>

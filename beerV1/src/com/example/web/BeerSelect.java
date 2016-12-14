@@ -28,8 +28,8 @@ public class BeerSelect extends HttpServlet{
 		String c = request.getParameter("color");
 		BeerExpert be = new BeerExpert();
 		List brands = be.getBrands(c);
-		request.setAttribute("styles", brands);
-		RequestDispatcher view = request.getRequestDispatcher("result.jsp");
+		request.setAttribute("styles", brands);//JSP要寻找styles
+		RequestDispatcher view = request.getRequestDispatcher("result.jsp");//为JSP实例化一个请求分派器
 		view.forward(request, response);
 //		Iterator it = brands.iterator();
 //		while(it.hasNext())

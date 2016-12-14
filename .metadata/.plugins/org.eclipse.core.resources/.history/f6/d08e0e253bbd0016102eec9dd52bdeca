@@ -1,0 +1,11 @@
+package interfacefactory;
+
+public class CheesePizza extends Pizza {
+
+	@Override
+	void prepare() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
