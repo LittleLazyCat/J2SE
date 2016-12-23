@@ -13,7 +13,7 @@
 <form action="SelectBeer.do" method ="POST">
 Select beer characteristics<p>
 Color:
-<formTags:select name='color'  optionsList='${applicationScope.colorList}' /> 
+<formTags:select name='color' size='1' optionsList='${applicationScope.colorList}' /> 
 <br></br>
 <center>
 <input type="SUBMIT">

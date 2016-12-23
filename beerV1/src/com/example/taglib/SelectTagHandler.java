@@ -18,11 +18,6 @@ public class SelectTagHandler extends SimpleTagSupport implements DynamicAttribu
 
 	private HashMap<String, Object> tagAttrs = new HashMap<String, Object>();
 
-	public SelectTagHandler(List optionsList) {
-
-		this.optionsList = optionsList;
-	}
-
 	@Override
 	public void setDynamicAttribute(String uri, String name, Object value) throws JspException {
 		tagAttrs.put(name, value);
