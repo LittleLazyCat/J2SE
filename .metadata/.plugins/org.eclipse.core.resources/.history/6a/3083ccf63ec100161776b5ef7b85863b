@@ -1,7 +1,0 @@
-package com.cookie;
-
-import javax.servlet.http.HttpServlet;
-
-public class CookieTest extends HttpServlet {
-
-}

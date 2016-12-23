@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="mileage.CityHelper"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="mileageV2.CityHelper"/>
-<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="castle.HandlerHelp"/>
-<fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Attribute.Layout"/>
-<fullyQualifiedTypeName name="Duck.FlyWithWIngs"/>
-<fullyQualifiedTypeName name="Duck.MallardDuck"/>
 <fullyQualifiedTypeName name="Duck.FlyNoWay"/>
 <fullyQualifiedTypeName name="Duck.QuackBehavior"/>
 <fullyQualifiedTypeName name="Duck.DuckCall"/>
@@ -19,7 +8,6 @@
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ServantAlreadyActive"/>
 <fullyQualifiedTypeName name="netChat.VerySimpleChatServer.ClientHandler"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.net.ServerSocket"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="javax.swing.JPanel"/>
@@ -45,7 +33,6 @@
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="weatherstation.CurrentConditionDisplay"/>
 <fullyQualifiedTypeName name="java.sql.Array"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="factory.NYStyleCheesePizza"/>
 <fullyQualifiedTypeName name="factory.NYPizzaStore"/>
 <fullyQualifiedTypeName name="interfacefactory.ThinCrustDough"/>
@@ -58,6 +45,19 @@
 <fullyQualifiedTypeName name="interfacefactory.CheesePizza"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="foo.Person"/>
+<fullyQualifiedTypeName name="foo.Dog"/>
+<fullyQualifiedTypeName name="foo.Toy"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.PageContext"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.JspWriter"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.tagext.DynamicAttributes"/>
+<fullyQualifiedTypeName name="javax.servlet.jsp.tagext.TagAttributeInfo"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 </qualifiedTypeNameHistroy>

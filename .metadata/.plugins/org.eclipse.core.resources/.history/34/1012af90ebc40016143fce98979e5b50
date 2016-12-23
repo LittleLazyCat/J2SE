@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TLDTest">
+        <property name="context-root" value="TLDTest"/>
+        <property name="java-output-path" value="/TLDTest/build/classes"/>
+    </wb-module>
+</project-modules>

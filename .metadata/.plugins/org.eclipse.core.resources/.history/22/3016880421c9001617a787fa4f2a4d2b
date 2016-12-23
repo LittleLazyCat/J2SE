@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+<body>
+<h1 align = "center">Beer Selection Page</h1>
+<form action="SelectBeer.do" method ="post">
+Select beer characteristics<p>
+Color:
+<select name="color" size="1">
+<option value="light">light</option>
+</select>
+<br></br>
+<center>
+<input type="SUBMIT">
+</center>
+
+</form>
+</body>
+</html>
