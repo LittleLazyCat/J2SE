@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,8 +18,18 @@ public class BeerSelect extends HttpServlet{
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		super.service(request, response);
 	}
-	
-
+	BeerExpert beerExpert;
+	@Override
+	public void init() {
+	     
+	    /*
+	     * Create the Model and put the beer color list in the 
+	     * ServletContext as an attribute
+	     */
+		beerExpert = new BeerExpert();
+	    ServletContext sc = getServletConfig().getServletContext(); 
+	    sc.setAttribute("colorList", beerExpert.getColorList());
+	}
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //		response.setContentType("text/html");
@@ -26,11 +37,12 @@ public class BeerSelect extends HttpServlet{
 //		pw.println("Beer Selection Advice<br>");
 		
 		String c = request.getParameter("color");
-		BeerExpert be = new BeerExpert();
-		List brands = be.getBrands(c);
+		beerExpert = new BeerExpert();
+		List brands = beerExpert.getBrands(c);
 		request.setAttribute("styles", brands);//JSP要寻找styles
 		RequestDispatcher view = request.getRequestDispatcher("result.jsp");//为JSP实例化一个请求分派器
 		view.forward(request, response);
+	    
 //		Iterator it = brands.iterator();
 //		while(it.hasNext())
 //		{
