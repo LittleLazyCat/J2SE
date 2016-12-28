@@ -43,7 +43,6 @@
 <fullyQualifiedTypeName name="interfacefactory.PizzaIngredientFactory"/>
 <fullyQualifiedTypeName name="interfacefactory.NYPizzaIngredientFactory"/>
 <fullyQualifiedTypeName name="interfacefactory.CheesePizza"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="foo.Person"/>
@@ -57,7 +56,8 @@
 <fullyQualifiedTypeName name="javax.servlet.jsp.tagext.TagAttributeInfo"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
-<fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
 </qualifiedTypeNameHistroy>
