@@ -1,6 +1,7 @@
 package com.Alex.web;
 
 import java.io.IOException;
+
 import java.io.PrintWriter;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -31,6 +32,7 @@ public class IndexServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 		response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         //创建Session
@@ -44,6 +46,10 @@ public class IndexServlet extends HttpServlet {
             url = response.encodeURL(url);//将超链接的url地址进行重写
             out.println(book.getName()  + "   <a href='"+url+"'>购买</a><br/>");
         }
+
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+
 	}
 
 	/**
@@ -55,6 +61,7 @@ public class IndexServlet extends HttpServlet {
 	}
 
 }
+
 /**
  * @author gacl
  * 模拟数据库
@@ -100,3 +107,4 @@ class Book{
         this.name = name;
     }
 }
+
