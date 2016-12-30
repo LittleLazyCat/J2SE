@@ -40,7 +40,7 @@ public class BuyServlet extends HttpServlet {
         }
         list.add(book);
         //response. encodeRedirectURL(java.lang.String url)用于对sendRedirect方法后的url地址进行重写
-        String url = response.encodeRedirectURL(request.getContextPath()+"/servlet/ListCartServlet");
+        String url = response.encodeRedirectURL(request.getContextPath()+"/ListCartServlet");
         System.out.println(url);
         response.sendRedirect(url);
 	}

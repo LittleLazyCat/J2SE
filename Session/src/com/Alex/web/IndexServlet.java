@@ -39,7 +39,7 @@ public class IndexServlet extends HttpServlet {
         Set<Map.Entry<String,Book>> set = DB.getAll().entrySet();
         for(Map.Entry<String,Book> me : set){
             Book book = me.getValue();
-            String url =request.getContextPath()+ "/servlet/BuyServlet?id=" + book.getId();
+            String url =request.getContextPath()+ "/BuyServlet?id=" + book.getId();
             //response. encodeURL(java.lang.String url)用于对表单action和超链接的url地址进行重写
             url = response.encodeURL(url);//将超链接的url地址进行重写
             out.println(book.getName()  + "   <a href='"+url+"'>购买</a><br/>");
