@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Duck.FlyNoWay"/>
-<fullyQualifiedTypeName name="Duck.QuackBehavior"/>
-<fullyQualifiedTypeName name="Duck.DuckCall"/>
-<fullyQualifiedTypeName name="java.util.zip.InflaterInputStream"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ServantAlreadyActive"/>
 <fullyQualifiedTypeName name="netChat.VerySimpleChatServer.ClientHandler"/>
@@ -44,7 +39,6 @@
 <fullyQualifiedTypeName name="interfacefactory.NYPizzaIngredientFactory"/>
 <fullyQualifiedTypeName name="interfacefactory.CheesePizza"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="foo.Person"/>
 <fullyQualifiedTypeName name="foo.Dog"/>
 <fullyQualifiedTypeName name="foo.Toy"/>
@@ -56,8 +50,14 @@
 <fullyQualifiedTypeName name="javax.servlet.jsp.tagext.TagAttributeInfo"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

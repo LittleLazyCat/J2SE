@@ -9,14 +9,6 @@
     <servlet-name>Ch3 Beer</servlet-name>
     <url-pattern>/SelectBeer.do</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <servlet-name>clientRequest1</servlet-name>
-    <servlet-class>com.example.web.ColorServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>clientRequest1</servlet-name>
-    <url-pattern>/InputColor.do</url-pattern>
-  </servlet-mapping>
   
   <display-name>beerV1</display-name>
   <welcome-file-list>

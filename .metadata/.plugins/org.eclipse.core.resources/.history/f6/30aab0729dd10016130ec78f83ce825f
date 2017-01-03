@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="cms-f">
+        <property name="context-root" value="cms-f"/>
+        <property name="java-output-path" value="/cms-f/build/classes"/>
+    </wb-module>
+</project-modules>

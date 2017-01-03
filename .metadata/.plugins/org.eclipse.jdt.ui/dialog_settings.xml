@@ -5,6 +5,7 @@
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="D:\tomcat7.0.73\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
+	<item value="filter_imports;" key="filters_last_used"/>
 	<item value="D:\JavaWorkSpace" key="org.eclipse.jdt.ui.last.external.project"/>
 	<item value="480,578" key="UserLibraryLoadSaveDialog.size"/>
 	<item value="0" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
@@ -129,7 +130,7 @@
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="7" key="index"/>
+		<item value="3" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

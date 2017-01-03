@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>ERP</display-name>
+	<servlet>
+		<servlet-name>actionServlet</servlet-name>
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/struts-config.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UploadServlet</display-name>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>com.dbt.servlets.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>actionServlet</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/UploadServlet</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errors/404.jsp</location>
+	</error-page>
+
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>com.dbt.filter.LoginFilter</filter-class>
+		<init-param>
+			<param-name>test-param</param-name>
+			<param-value>Initialization Parameter</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<description>
+		</description>
+		<display-name>SessionFilter</display-name>
+		<filter-name>SessionFilter</filter-name>
+		<filter-class>com.dbt.filter.SessionFilter</filter-class>
+	</filter>
+	<filter>
+		<description>
+		</description>
+		<display-name>RoleFilter</display-name>
+		<filter-name>RoleFilter</filter-name>
+		<filter-class>com.dbt.filter.RoleFilter</filter-class>
+	</filter>
+	
+	
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/login.jsp</url-pattern>
+	</filter-mapping>
+	
+	<filter-mapping>
+		<filter-name>SessionFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	
+	
+	<filter-mapping>
+		<filter-name>RoleFilter</filter-name>
+		<url-pattern>/RoleFilter</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>/WEB-INF/struts-html.tld</taglib-uri>
+			<taglib-location>/WEB-INF/struts-html.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/struts-bean.tld</taglib-uri>
+			<taglib-location>/WEB-INF/struts-bean.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/struts-form.tld</taglib-uri>
+			<taglib-location>/WEB-INF/struts-form.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/struts-logic.tld</taglib-uri>
+			<taglib-location>/WEB-INF/struts-logic.tld</taglib-location>
+		</taglib>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/struts-template.tld</taglib-uri>
+			<taglib-location>/WEB-INF/struts-template.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+</web-app>

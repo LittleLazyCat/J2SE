@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/ftt/orderout/action/OutOrderDetailAction.java=UTF-8
+encoding//src/ftt/orderout/dao/OutOrderDao.java=UTF-8
+encoding//src/ftt/test/TestOutOrderDao.java=GBK
+encoding//src/ldm/pager/util/MD5Util.java=GBK
+encoding//src/ldm/pager/util/PagerBean.java=GBK
+encoding//src/ldm/pager/util/PagerDao.java=GBK
+encoding//src/ldm/pager/util/PagerIDao.java=GBK
+encoding/<project>=UTF-8

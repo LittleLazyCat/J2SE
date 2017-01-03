@@ -1,7 +1,0 @@
-package com.example.taglib;
-
-import javax.servlet.jsp.tagext.SimpleTagSupport;
-
-public class SelectTagHandler extends SimpleTagSupport {
-
-}
